@@ -1,0 +1,7 @@
+conda activate deeplearning
+cd C:\Users\hemanthcg\Desktop\A15\virtual-dressing-room-master\virtual-dressing-room-master
+python MainCam.py
+
+
+cd C:\Users\hemanthcg\Desktop\A15\Virtual-Trial-Room-master\Virtual-Trial-Room-master\Project
+python main.py
