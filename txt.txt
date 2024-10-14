@@ -1,0 +1,7 @@
+conda activate deeplearning
+cd virtual-dressing-room-master\virtual-dressing-room-master
+python MainCam.py
+
+
+cd Virtual-Trial-Room-master\Virtual-Trial-Room-master\Project
+python main.py
