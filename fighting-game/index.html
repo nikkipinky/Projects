@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hero vs Enemy game - a thrilling fight to victory!">
+    <title>Fight! Attack!</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Background Image -->
+        <img src="../assets/images/background.png" alt="Game Background" id="background">
+
+        <!-- Game Canvas -->
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+        <!-- Game Info Section -->
+        <div id="game-info">
+            <div class="info-item">
+                <p>Hero Health: <span id="heroHealth">100</span></p>
+            </div>
+            <div class="info-item">
+                <p>Enemy Health: <span id="enemyHealth">100</span></p>
+            </div>
+            <div class="info-item">
+                <p>Time Left: <span id="timer">60</span> seconds</p>
+            </div>
+            <div class="info-item">
+                <button id="restart-btn">Restart Game</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="./config/characters.js"></script>
+    <script src="./utils/collision.js"></script>
+    <script src="./utils/animations.js"></script>
+    <script src="./components/Character.js"></script>
+    <script src="./components/HealthBar.js"></script>
+    <script src="./components/Timer.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
